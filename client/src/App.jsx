@@ -1,10 +1,15 @@
+import React from "react";
+import LandingPage from "./views/LandingPage";
+import {BrowserRouter, Routes, Route} from "react-router-dom";
 
 function App() {
 
   return (
-    <>
-      hello world
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route element={<LandingPage/>}  path="/"/>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
