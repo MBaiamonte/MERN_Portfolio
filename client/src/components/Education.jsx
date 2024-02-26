@@ -78,7 +78,7 @@ const Education = () => {
                         </Row>
                         <Card.Title>University Colorado Boulder</Card.Title>
                         <Card.Subtitle>Studied Integrated Physiology</Card.Subtitle>
-                        <Card.Text>Augest 2016 - May 2018</Card.Text>
+                        <Card.Text>August 2016 - May 2018</Card.Text>
                         <Card.Text className='mt-2'>GPA: 3.3</Card.Text>
                         <div>
                             <h6>Description</h6>
