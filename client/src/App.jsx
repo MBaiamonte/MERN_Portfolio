@@ -9,6 +9,7 @@ function App() {
       <Routes>
         <Route element={<LandingPage/>}  path="/"/>
         <Route element={<EducationPage/>}  path="/Education"/>
+        
       </Routes>
     </BrowserRouter>
   )
