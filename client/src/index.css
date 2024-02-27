@@ -16,7 +16,6 @@
   position: relative;
   border-radius: 0.35rem;
   border: none;
-  background-color: lightcyan;
   transform-style: preserve-3d;
   transition: 800ms;
   cursor: pointer;
@@ -24,6 +23,10 @@
   height: 250px;
   width: 350px;
   margin: 10px;
+}
+.card.education{
+  width: 400px;
+  height:350px
 }
 .card:hover{
   --translate-y: -2px;
