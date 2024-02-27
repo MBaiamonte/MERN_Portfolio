@@ -3,8 +3,8 @@ import {Col, Container, Card, Image, Row} from 'react-bootstrap';
 
 const Footer = () => {
     return (
-        <Container className=' d-flex pt-3 flex-column align-items-center' style={{'backgroundColor': 'lightgreen'}}>
-            <h3>Contact Me!</h3>
+        <Container className=' d-flex pt-3 flex-column align-items-center'>
+            <h3 className='mb-4'>Contact Me!</h3>
             <Row className='d-flex justify-content-around align-items-center w-100 my-3'>
                 <Col className='col-3  d-flex flex-column justify-content-center align-items-center'>
                 <a href="#">
