@@ -3,10 +3,10 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  flex-wrap: wrap;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 1rem;
-  margin: 20px 20px 20px 45px;
-  padding: 30px;
+  margin: 20px 10px 20px 45px;
 }
 .card{
   display: flex;
@@ -26,7 +26,7 @@
 }
 .card.education{
   width: 400px;
-  height:350px
+  height:275px;
 }
 .card:hover{
   --translate-y: -10px;
@@ -50,9 +50,9 @@
 .card .back{
   transform: rotateY(180deg);
 }
-/* .card .back p {
-  max-width: 75px;
-} */
+ .card  p {
+  margin-bottom: 5px;
+}
 
 
 /* Global styles */

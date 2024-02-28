@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import {useNavigate} from 'react-router-dom';
-import Separator from './Separator'
 
 
 const EducationQuickView = () => {
@@ -16,7 +15,6 @@ const EducationQuickView = () => {
 
     return (
         <div className='d-flex flex-column'>
-            <Separator/>
             <h3 className='align-self-center'>Educational Journey</h3>
             <div className='card-grid'>
             <div className={`card education ${(flip1 ? "flip" : "")}`}>
