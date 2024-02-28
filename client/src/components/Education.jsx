@@ -14,16 +14,19 @@ const Education = () => {
                 </div>
                 <div className='body'>
                     <h4>Description</h4>
-                    <p>Coding Dojo Started out by teaching Web Fundaments with HTML5, CSS and JavaScript and general practices. 
+                    <p>
+                        Coding Dojo Started out by teaching Web Fundaments with HTML5, CSS and JavaScript and general practices. 
                         After getting these core concepts down, I moved on to the Python Full stack course. 
                         Here I learned overarching coding principles such as development life cycles, MVC, OOP as well as code with python syntax. 
                         Along with python I learned how to utilize Flask and non-relational databases such a MySQL. 
                         By the end of this stack I was able to build full CRUD (create,read,update,Delete) applications with validations, authentication and M2M relationships.
                     </p>
-                    <p>The next full language stack I completed was Java with Spring Boot. 
+                    <p>
+                        The next full language stack I completed was Java with Spring Boot. 
                         Here I once again utilized over arching coding methodologies/principles to build full stack Java applications.
                     </p>
-                    <p>The last full language stack I learned was MERN (MongoDB, Express, React, Node.js). While similar to my previous stack, it had its own unique traits such as being Single Page Application. 
+                    <p>
+                        The last full language stack I learned was MERN (MongoDB, Express, React, Node.js). While similar to my previous stack, it had its own unique traits such as being Single Page Application. 
                         This stack also taught me how to incorporate non-relation databases such as MongoDB. Once again by the end of the program I was able to build full stack MERN applications that could authenticate routes/user, 
                         validate data entry,conditionally render and more.
                     </p>

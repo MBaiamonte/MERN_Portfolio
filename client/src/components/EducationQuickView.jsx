@@ -1,17 +1,21 @@
 import React, {useState} from 'react';
-// import { Container, Card, Row , Col, Button} from 'react-bootstrap';
-
-// import {Link} from 'react-router-dom'
+import {useNavigate} from 'react-router-dom';
 
 const EducationQuickView = () => {
         //Declarations 
-        const [flip1, setFlip1] = useState(false)
-        const [flip2, setFlip2] = useState(false)
-        const [flip3, setFlip3] = useState(false)
+        const [flip1, setFlip1] = useState(false);
+        const [flip2, setFlip2] = useState(false);
+        const [flip3, setFlip3] = useState(false);
+        const navigate = useNavigate();
+        //Functions and handlers
+        const educationNav = () =>{
+            navigate('/Education')
+        }
+
     return (
         <>
 
-        <div className='card-grid my-5'>
+        <div className='card-grid mt-5 pb-0 mb-0'>
         <div className={`card education ${(flip1 ? "flip" : "")}`}>
             <div className='front' onClick={()=> setFlip1(!flip1)}>
                 <div>
@@ -20,11 +24,20 @@ const EducationQuickView = () => {
                 <h4>University of Alaska Fairbanks</h4>
                 <h5>Bachelors in Biology</h5>
                 <p>August 2019 - May 2021</p>
-                <p>Boulder, CO</p>
+                <div>
+                    <img src="../images/flip_card_icon.png" alt="flip icon" style={{'maxHeight':'25px', 'height': '30%' ,'maxWidth':'100%'}}/>
+                </div>
             </div>
-            <div className='back' onClick={()=> setFlip1(!flip1)}>
-                <h4>GPA</h4>
-                <p>back side</p>
+            <div className='back d-flex flex-column align-items-center' onClick={()=> setFlip1(!flip1)}>
+                <div>
+                    <img src="../images/Nanook_Bear.png" className='my-2' style={{'maxHeight':'75px', 'height': '30%' ,'maxWidth':'100%'}} />
+                </div>
+                <h4>University of Alaska Fairbanks</h4>
+                <h6>August 2019 - May 2021 | GPA: 3.7</h6>
+                <button onClick={educationNav}>View in Detail</button>
+                <div  className='mt-4'>
+                    <img src="../images/flip_card_icon.png" alt="flip icon" style={{'maxHeight':'25px', 'height': '30%' ,'maxWidth':'100%'}}/>
+                </div>
             </div>
         </div>
 
@@ -37,11 +50,20 @@ const EducationQuickView = () => {
                 <h5>Full-Stack Web Development</h5>
                 <h6>MERN, Java, and Python</h6>
                 <p>Dec 2022 - Oct 2023</p>
-                <p>Remote</p>
+                <div>
+                    <img src="../images/flip_card_icon.png" alt="flip icon" style={{'maxHeight':'25px', 'height': '30%' ,'maxWidth':'100%'}}/>
+                </div>
             </div>
-            <div className='back' onClick={()=> setFlip2(!flip2)}>
-                <h4>Job Duties</h4>
-                <p>back side</p>
+            <div className='back d-flex flex-column align-items-center' onClick={()=> setFlip2(!flip2)}>
+                <div>
+                    <img src="../images/dojo_icon.png" className='my-2' style={{'maxHeight':'75px', 'height': '30%' ,'maxWidth':'100%'}} />
+                </div>
+                <h4>Coding Dojo Bootcamp</h4>
+                <h6>Dec 2022 - Oct 2023</h6>
+                <button onClick={educationNav}>View in Detail</button>
+                <div  className='mt-4'>
+                    <img src="../images/flip_card_icon.png" alt="flip icon" style={{'maxHeight':'25px', 'height': '30%' ,'maxWidth':'100%'}}/>
+                </div>
             </div>
         </div>
 
@@ -53,11 +75,20 @@ const EducationQuickView = () => {
                 <h4>University Colorado Boulder</h4>
                 <h5>Studied Integrated Physiology</h5>
                 <p>August 2016 - May 2018</p>
-                <p>Boulder, CO</p>
+                <div>
+                    <img src="../images/flip_card_icon.png" alt="flip icon" style={{'maxHeight':'25px', 'height': '30%' ,'maxWidth':'100%'}}/>
+                </div>
             </div>
-            <div className='back' onClick={()=> setFlip3(!flip3)}>
-                <h4>Job Duties</h4>
-                <p>back side</p>
+            <div className='back d-flex flex-column align-items-center' onClick={()=> setFlip3(!flip3)}>
+                <div>
+                    <img src="../images/CU_Logo.png" className='my-2' style={{'maxHeight':'75px', 'height': '30%' ,'maxWidth':'100%'}} />
+                </div>
+                <h4>University Colorado Boulder</h4>
+                <h6>August 2016 - May 2018</h6>
+                <button onClick={educationNav}>View in Detail</button>
+                <div  className='mt-4'>
+                    <img src="../images/flip_card_icon.png" alt="flip icon" style={{'maxHeight':'25px', 'height': '30%' ,'maxWidth':'100%'}}/>
+                </div>
             </div>
         </div>
     </div>
