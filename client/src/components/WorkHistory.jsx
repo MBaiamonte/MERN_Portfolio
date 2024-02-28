@@ -8,7 +8,9 @@ const WorkHistory = () => {
     const [flip3, setFlip3] = useState(false)
 
     return (
-            <div className='card-grid my-5'>
+        <div className='d-flex flex-column justify-content-center '>
+            <h3 className='align-self-center mt-5'>Work Experience</h3>
+            <div className='card-grid'>
                 <div className={`card ${(flip1 ? "flip" : "")}`}>
                     <div className='front' onClick={()=> setFlip1(!flip1)}>
                         <div>
@@ -29,7 +31,7 @@ const WorkHistory = () => {
                         <div>
                             <img src='../images/IEH_Logo.png' className='my-2' style={{'maxHeight':'85px', 'height': '40%' ,'width':'auto'}} />
                         </div>
-                        <h4>IEH Consulting</h4>
+                        <h4>IEH Labs & Consulting</h4>
                         <h5>Microbiologist</h5>
                         <p>May/2021 - Feb/2022</p>
                         <p>Greeley, CO</p>
@@ -55,7 +57,7 @@ const WorkHistory = () => {
                     </div>
                 </div>
             </div>
-
+        </div>
     )
 }
 
