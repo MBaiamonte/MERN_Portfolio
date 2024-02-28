@@ -53,3 +53,21 @@
 .card .back p {
   max-width: 75px;
 }
+
+
+/* Global styles */
+.headers{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 0 20px;
+}
+.body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
