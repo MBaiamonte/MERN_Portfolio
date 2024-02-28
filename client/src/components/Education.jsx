@@ -3,7 +3,7 @@ import {Container, Row, Card} from 'react-bootstrap';
 
 const Education = () => {
     return (
-        <div className='d-flex flex-column mt-5 pt-4 align-items-center ' style={{'width':'70%', 'margin': 'auto', 'marginTop': '100px'}}>
+        <div className='d-flex flex-column align-items-center ' style={{'width':'75%', 'margin': 'auto'}}>
             <h3>My Academic Journey</h3>
             <div>
                 <div className='headers'>

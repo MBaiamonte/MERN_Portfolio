@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import '../index.css'
 
+
 const WorkHistory = () => {
     //Declarations 
     const [flip1, setFlip1] = useState(false)
@@ -9,7 +10,7 @@ const WorkHistory = () => {
 
     return (
         <div className='d-flex flex-column justify-content-center '>
-            <h3 className='align-self-center mt-5'>Work Experience</h3>
+            <h3 className='align-self-center '>Work Experience</h3>
             <div className='card-grid'>
                 <div className={`card ${(flip1 ? "flip" : "")}`}>
                     <div className='front' onClick={()=> setFlip1(!flip1)}>
