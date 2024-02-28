@@ -15,16 +15,16 @@ const Header = () => {
                         <Navbar.Collapse id="responsive-navbar-nav">   
                             <Nav className='ms-auto justify-content-around w-100'>
                                 <LinkContainer to='/Projects'>
-                                    <Nav.Link >Projects</Nav.Link>
+                                    <Nav.Link className='shake'>Projects</Nav.Link>
                                 </LinkContainer>
                                 <LinkContainer to='/Work_History'>
-                                    <Nav.Link >Work History</Nav.Link>
+                                    <Nav.Link className='shake'>Work History</Nav.Link>
                                 </LinkContainer>
                                 <LinkContainer to='/Education'>
-                                    <Nav.Link >Education</Nav.Link>
+                                    <Nav.Link className='shake'>Education</Nav.Link>
                                 </LinkContainer>
                                 <LinkContainer to='/About_Me'>
-                                    <Nav.Link >About Me</Nav.Link>
+                                    <Nav.Link className='shake'>About Me</Nav.Link>
                                 </LinkContainer>
                             </Nav>
                             </Navbar.Collapse>
