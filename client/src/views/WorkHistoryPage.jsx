@@ -10,6 +10,7 @@ const WorkHistoryPage = () => {
     const settings = {
         dots: true,
         infinite: true,
+        fade: true, 
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -22,7 +23,8 @@ const WorkHistoryPage = () => {
             <Header/>
             <Separator/>
             <h4>Work History</h4>
-            <div className='mb-4' style={{'width': '70%', 'backgroundColor': 'lavenderblush'}}>
+            <p>(hover curser to pause)</p>
+            <div className='mb-4' style={{'width': '70%'}}>
                 <Slider {...settings} >
                 <div className='slide'>
                         <div className='justify-content-center d-flex align-items-center'>
@@ -78,10 +80,9 @@ const WorkHistoryPage = () => {
                             </div>
                             <div style={{'width':'65%'}}>
                                 <h5>Duties</h5>
-                                <li>ed workflows and improved efficiency. </li>
-                                <li>th safety regulations. </li>
-                                <li>Eftrv </li>
-                                <li>vfevrw.</li>
+                                <li>Aided Dr Niles as needed to ensure efficiency and expedite the exam process to reduce wait times for patients.</li>
+                                <li> Assembled exam room with correct anesthetic and tools needed for appointments.</li>
+                                <li>Assisted with dental procedures and observed Dr Niles's methodologies while performing a variety of treatments.</li>
                             </div>
                         </div>
                     </div>
@@ -98,10 +99,10 @@ const WorkHistoryPage = () => {
                             </div>
                             <div style={{'width':'65%'}}>
                                 <h5>Duties</h5>
-                                <li>ed workflows and improved efficiency. </li>
-                                <li>th safety regulations. </li>
-                                <li>Eftrv </li>
-                                <li>vfevrw.</li>
+                                <li>Performed swift water rescue to quickly save guests and remove them from potentially dangerous situations</li>
+                                <li>Guided families of all ages and experience levels down class four rapids in a safe but fun manner </li>
+                                <li>Administered first aid as needed for a variety of injuries as needed. </li>
+                                <li>Set river safety for other guides to ensure the quick rescue of guests should an accident occur.  </li>
                             </div>
                         </div>
                     </div>

@@ -112,3 +112,9 @@ a.shake:hover{
   justify-content: center;
   align-items: center; */
 }
+.slick-arrow{
+  color:black !important;
+  background-color: black !important;
+  height: 50px;
+  border-radius: 10px;
+}
