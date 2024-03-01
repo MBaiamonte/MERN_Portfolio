@@ -30,7 +30,7 @@ const WorkHistoryPage = () => {
                         </div>
                         <div className='d-flex justify-content-between mt-4 mx-4 '>
                             <div style={{'width':'30%'}} className=' d-flex flex-column align-items-center'>
-                                <h4 style={{'overflowWrap': 'break-word'}}>Inotiv Bioanalytical Systems</h4>
+                                <h4 style={{'overflowWrap': 'break-word', 'textAlign' : 'center'}}>Inotiv Bioanalytical Systems</h4>
                                 <h5>Research Associate</h5>
                                 <p className='mb-0'>Feb 2022 - Dec 2022</p>
                                 <p>Boulder, CO</p>
@@ -70,7 +70,7 @@ const WorkHistoryPage = () => {
                             <img src='../images/Niles_Logo.webp' className='my-2' style={{'maxHeight':'150px', 'height': '40%' ,'width':'auto'}} />
                         </div>
                         <div className='d-flex justify-content-between mt-4 mx-4 '>
-                            <div style={{'width':'30%'}} className=' d-flex flex-column align-items-center'>
+                            <div style={{'width':'30%', 'textAlign' : 'center'}} className=' d-flex flex-column align-items-center'>
                                 <h4 style={{'overflowWrap': 'break-word'}}>Niles Family Dentistry</h4>
                                 <h5>Intern</h5>
                                 <p className='mb-0'>Dec 2016 - Dec 2017</p>
@@ -85,8 +85,25 @@ const WorkHistoryPage = () => {
                             </div>
                         </div>
                     </div>
-                    <div>
-                        <h3>3</h3>
+                    <div className='slide'>
+                        <div className='justify-content-center d-flex align-items-center'>
+                            <img src='../images/SMO_Logo.webp' className='my-2' style={{'maxHeight':'150px', 'height': '40%' ,'width':'auto'}} />
+                        </div>
+                        <div className='d-flex justify-content-between mt-4 mx-4 '>
+                            <div style={{'width':'30%'}} className=' d-flex flex-column align-items-center'>
+                                <h4 style={{'overflowWrap': 'break-word', 'textAlign' : 'center'}}>Smokey Mountain Outdoors</h4>
+                                <h5>Raft Guide</h5>
+                                <p className='mb-0'>May 2018 - Aug 2020</p>
+                                <p>Hartford, TN</p>
+                            </div>
+                            <div style={{'width':'65%'}}>
+                                <h5>Duties</h5>
+                                <li>ed workflows and improved efficiency. </li>
+                                <li>th safety regulations. </li>
+                                <li>Eftrv </li>
+                                <li>vfevrw.</li>
+                            </div>
+                        </div>
                     </div>
                 </Slider>
             </div>
