@@ -38,7 +38,7 @@ const Education = () => {
                     <img className='mb-3' style={{'maxHeight':'150px', 'height': '80%' ,'width':'auto'}} src="../images/UAF_Banner.png" alt="UAF logo" />
                     <h4>University of Alaska Fairbanks</h4>
                     <h5>Bachelors in Biology</h5>
-                    <p>August 2019 - May 2021 | GPA: 3.7</p>
+                    <p>Aug 2019 - May 2021 | GPA: 3.7</p>
                 </div>
                 <div className='body'>
                     <h4>Description</h4>
@@ -65,7 +65,7 @@ const Education = () => {
                     <img className='mb-3' style={{'maxHeight':'150px', 'height': '80%' ,'width':'auto'}} src="../images/CU_Boulder_Banner_2.png" />
                     <h4>University Colorado Boulder</h4>
                     <h5>Studied Integrated Physiology</h5>
-                    <p>August 2016 - May 2018 | GPA: 3.7</p>
+                    <p>Aug 2016 - May 2018 | GPA: 3.3</p>
                 </div>
                 <div className='body'>
                     <h4>Description</h4>

@@ -34,7 +34,7 @@ const EducationQuickView = () => {
                         <img src="../images/Nanook_Bear.png" className='my-2' style={{'maxHeight':'75px', 'height': '30%' ,'maxWidth':'100%'}} />
                     </div>
                     <h4>University of Alaska Fairbanks</h4>
-                    <h6>August 2019 - May 2021 | GPA: 3.7</h6>
+                    <h6>Aug 2019 - May 2021 | GPA: 3.7</h6>
                     <button onClick={educationNav}>View in Detail</button>
                     <div  className='mt-4'>
                         <img src="../images/flip_card_icon.png" alt="flip icon" style={{'maxHeight':'25px', 'height': '30%' ,'maxWidth':'100%'}}/>
