@@ -20,7 +20,7 @@
   transition: 800ms;
   cursor: pointer;
   transform: perspective(1000px) rotateY(var(--rotate-y, 0)) translateY(var(--translate-y, 0));
-  height: 250px;
+  height: 300px;
   width: 350px;
   margin: 10px;
 }
@@ -32,6 +32,8 @@
   --translate-y: -10px;
   box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5);
   opacity: 1;
+  /* background-color: #3492E4; */
+  /* background-image: linear-gradient(to right bottom, #004444, #188F8B,#1ee1db,#DBBF57 ) */
 }
 .card.flip{
   --rotate-y:180deg;
@@ -49,8 +51,12 @@
 }
 .card .back{
   transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
- .card  p {
+.card  p {
   margin-bottom: 5px;
 }
 
@@ -97,4 +103,12 @@ a.shake:hover{
   100%{
     transform: rotate(10deg) translateX(0px);
   }
+}
+
+/* slick carousel  styles */
+.slide{
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
 }
