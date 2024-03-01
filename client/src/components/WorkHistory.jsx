@@ -8,6 +8,7 @@ const WorkHistory = () => {
     const [flip1, setFlip1] = useState(false);
     const [flip2, setFlip2] = useState(false);
     const [flip3, setFlip3] = useState(false);
+    const [flip4, setFlip4] = useState(false);
     const navigate = useNavigate();
 
     //Functions
@@ -26,7 +27,7 @@ const WorkHistory = () => {
                         </div>
                         <h4>Inotiv Bioanalytical Systems</h4>
                         <h5>Research Associate</h5>
-                        <p>Feb/2022 - Dec/2022</p>
+                        <p>Feb 2022 - Dec 2022</p>
                         <p>Boulder, CO</p>
                         <div className='mt-2'>
                             <img src="../images/flip_card_icon.png" alt="flip icon" style={{'maxHeight':'25px', 'height': '30%' ,'maxWidth':'100%'}}/>
@@ -51,7 +52,7 @@ const WorkHistory = () => {
                         </div>
                         <h4>IEH Labs & Consulting</h4>
                         <h5>Microbiologist</h5>
-                        <p>May/2021 - Feb/2022</p>
+                        <p>May 2021 - Feb 2022</p>
                         <p>Greeley, CO</p>
                         <div className='mt-2'>
                             <img src="../images/flip_card_icon.png" alt="flip icon" style={{'maxHeight':'25px', 'height': '30%' ,'maxWidth':'100%'}}/>
@@ -76,7 +77,7 @@ const WorkHistory = () => {
                         </div>
                         <h4>Smokey Mountain Outdoors</h4>
                         <h5>Whitewater Raft Guide</h5>
-                        <p>dates</p>
+                        <p>Seasonal, May 2018 - Aug 2020</p>
                         <p>Hartford, TN</p>
                         <div className='mt-2'>
                             <img src="../images/flip_card_icon.png" alt="flip icon"  style={{'maxHeight':'25px', 'height': '30%' ,'maxWidth':'100%'}}/>
@@ -88,6 +89,31 @@ const WorkHistory = () => {
                         </div>
                         <h4>Smokey Mountain Outdoors</h4>
                         <h5>Whitewater Raft Guide</h5>
+                        <button onClick={workNavigation}>View in Detail</button>
+                        <div>
+                            <img src="../images/flip_card_icon.png" alt="flip icon" className='mt-3' style={{'maxHeight':'25px', 'height': '30%' ,'maxWidth':'100%'}}/>
+                        </div>
+                    </div>
+                </div>
+                <div className={`card ${(flip4 ? "flip" : "")}`}>
+                    <div className='front' onClick={()=> setFlip4(!flip4)}>
+                        <div>
+                            <img src='../images/Niles_Logo.webp' className='my-2'style={{'maxHeight':'85px', 'height': '40%' ,'width':'auto'}} />
+                        </div>
+                        <h4>Niles Family Dentistry</h4>
+                        <h5>Intern</h5>
+                        <p>Dec 2016 - Dec 2017</p>
+                        <p>Niwot, CO</p>
+                        <div className='mt-2'>
+                            <img src="../images/flip_card_icon.png" alt="flip icon"  style={{'maxHeight':'25px', 'height': '30%' ,'maxWidth':'100%'}}/>
+                        </div>
+                    </div>
+                    <div className='back' onClick={()=> setFlip4(!flip4)}>
+                        <div>
+                            <img src="../images/Male_Dentist.webp" alt="flip icon" style={{'maxHeight':'85px', 'height': '30%' ,'maxWidth':'100%'}}/>
+                        </div>
+                        <h4>Niles Family Dentistry</h4>
+                        <h5>Intern</h5>
                         <button onClick={workNavigation}>View in Detail</button>
                         <div>
                             <img src="../images/flip_card_icon.png" alt="flip icon" className='mt-3' style={{'maxHeight':'25px', 'height': '30%' ,'maxWidth':'100%'}}/>

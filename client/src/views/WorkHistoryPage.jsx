@@ -32,7 +32,7 @@ const WorkHistoryPage = () => {
                             <div style={{'width':'30%'}} className=' d-flex flex-column align-items-center'>
                                 <h4 style={{'overflowWrap': 'break-word'}}>Inotiv Bioanalytical Systems</h4>
                                 <h5>Research Associate</h5>
-                                <p className='mb-0'>02/2022 - 12/2022</p>
+                                <p className='mb-0'>Feb 2022 - Dec 2022</p>
                                 <p>Boulder, CO</p>
                             </div>
                             <div style={{'width':'65%'}}>
@@ -52,7 +52,7 @@ const WorkHistoryPage = () => {
                             <div style={{'width':'30%'}} className=' d-flex flex-column align-items-center'>
                                 <h4 style={{'overflowWrap': 'break-word'}}>IEH Labs & Consulting</h4>
                                 <h5>Microbiologist</h5>
-                                <p className='mb-0'>May/2021 - Feb/2022</p>
+                                <p className='mb-0'>May 2021 - Feb 2022</p>
                                 <p>Greeley, CO</p>
                                 
                             </div>
@@ -62,6 +62,26 @@ const WorkHistoryPage = () => {
                                 <li>Conducted PCR to determine the presence of pathogenic bacterial strains. </li>
                                 <li>Demonstrated expertise in plating and counting bacterial cultures on agar plates. </li>
                                 <li>Maintained project workflow between departments and aided the chief microbiologist as needed.</li>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='slide'>
+                        <div className='justify-content-center d-flex align-items-center'>
+                            <img src='../images/Niles_Logo.webp' className='my-2' style={{'maxHeight':'150px', 'height': '40%' ,'width':'auto'}} />
+                        </div>
+                        <div className='d-flex justify-content-between mt-4 mx-4 '>
+                            <div style={{'width':'30%'}} className=' d-flex flex-column align-items-center'>
+                                <h4 style={{'overflowWrap': 'break-word'}}>Niles Family Dentistry</h4>
+                                <h5>Intern</h5>
+                                <p className='mb-0'>Dec 2016 - Dec 2017</p>
+                                <p>Niwot, CO</p>
+                            </div>
+                            <div style={{'width':'65%'}}>
+                                <h5>Duties</h5>
+                                <li>ed workflows and improved efficiency. </li>
+                                <li>th safety regulations. </li>
+                                <li>Eftrv </li>
+                                <li>vfevrw.</li>
                             </div>
                         </div>
                     </div>
