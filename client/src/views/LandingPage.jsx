@@ -5,15 +5,16 @@ import Footer from '../components/Footer';
 import WorkHistory from '../components/WorkHistory';
 import Separator from '../components/Separator'
 import Projects from '../components/Projects';
+import LandingHeader from '../components/LandingHeader';
 
 const LandingPage = () => {
     return (
         <>
             <Header/>
-            <Separator/>
+            <LandingHeader/>
             <Projects/>
-            <EducationQuickView/>
             <WorkHistory/>
+            <EducationQuickView/>
             <Footer/>
         </>
     )
