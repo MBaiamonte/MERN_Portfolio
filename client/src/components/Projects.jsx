@@ -5,7 +5,7 @@ import 'react-vertical-timeline-component/style.min.css';
 const Projects = () => {
     const reactIcon = '../images/React_Icon.png'
     return (
-        <div style={{'backgroundColor' : 'lightcoral'}}>
+        <div id='projects-container'>
             <div className='d-flex align-items-center justify-content-center'>
                 <h4 className='align-self-center '>My Projects</h4>
             </div>
@@ -13,7 +13,7 @@ const Projects = () => {
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{ color: 'black' }}
-                    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                    contentArrowStyle={{ borderRight: '7px solid #fff' }}
                     date="Feb 2024 - Current"
                     iconStyle={{ background: '#fff' }}
                     icon={<img src='../images/React_Icon.png' style={{'width': 'auto', 'height':'100%'}}/>}
@@ -54,7 +54,7 @@ const Projects = () => {
                     className="vertical-timeline-element--work"
                     date="Dec 2023 - Current"
                     iconStyle={{background: '#fff' }}
-                    icon={<img src='../images/React_Icon.png' style={{'width': 'auto', 'height':'100%'}}/>}
+                    icon={<img src='../images/css_html_js_icon.png' style={{'width': '100%', 'height':'auto'}} className='mt-2'/>}
                     >
                     <h3 className="vertical-timeline-element-title">50 CSS, JS and HTML Mini Projects</h3>
                     <h4 className="vertical-timeline-element-subtitle">HTML5, JS, CSS</h4>
