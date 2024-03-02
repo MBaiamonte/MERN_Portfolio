@@ -30,8 +30,9 @@
 }
 .card:hover{
   --translate-y: -10px;
-  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 5px 2px #ecd5e8;
   opacity: 1;
+  border: none;
   /* background-color: #3492E4; */
   /* background-image: linear-gradient(to right bottom, #004444, #188F8B,#1ee1db,#DBBF57 ) */
 }
@@ -78,6 +79,19 @@
   padding: 0 20px;
 }
 
+
+
+
+p{
+  color: #65BAD9;
+}
+span{
+  color: #BF9B30 ;
+}
+h6,h5,h4,h3,h2{
+  color: #459FC2;
+}
+
 /* anchor tag styles */
 a.shake{
   transition: 0.4s;
@@ -117,4 +131,16 @@ a.shake:hover{
   background-color: black !important;
   height: 50px;
   border-radius: 10px;
+}
+
+/* misc styles */
+#landing-header-div{
+  background-image: url(../images/minimalism_mountains.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: auto;
+}
+#projects-container{
+  background-image: linear-gradient(to bottom,#20364D,#20364D, #fff);
 }
