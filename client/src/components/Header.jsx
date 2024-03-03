@@ -4,8 +4,8 @@ import {LinkContainer} from 'react-router-bootstrap';
 
 const Header = () => {
     return (
-                <Container className='mb-3 '>
-                    <Navbar expand='md' fixed="top">
+                <Container className='mb-3'>
+                    <Navbar expand='md' fixed="top" className='mt-4 pt-0'>
                         <LinkContainer to="/" >
                             <Navbar.Brand>
                                 <h2>Matthew Baiamonte</h2>

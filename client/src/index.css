@@ -30,11 +30,9 @@
 }
 .card:hover{
   --translate-y: -10px;
-  box-shadow: 0 0 5px 2px #ecd5e8;
+  box-shadow: 0 0 5px 2px #D1D5DA;
   opacity: 1;
   border: none;
-  /* background-color: #3492E4; */
-  /* background-image: linear-gradient(to right bottom, #004444, #188F8B,#1ee1db,#DBBF57 ) */
 }
 .card.flip{
   --rotate-y:180deg;
