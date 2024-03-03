@@ -22,14 +22,14 @@ const WorkHistoryPage = () => {
         <div className='d-flex flex-column align-items-center'>
             <Header/>
             <Separator/>
-            <div className='d-flex justify-content-center align-items-center mb-5 mt-1'>
+            <div className='d-flex justify-content-center align-items-center mb-5 mt-1  flex-wrap'>
                 <h4  className='mb-0'>Work History</h4>
                 <p className='mb-0 ml-2' >(hover curser to pause)</p>
             </div>
             <div className='mb-4' style={{'width': '70%'}}>
                 <Slider {...settings} >
                 <div className='slide'>
-                        <div className='justify-content-center d-flex align-items-center'>
+                        <div className='justify-content-center d-flex align-items-center flex-wrap'>
                             <div style={{'width':'40%'}} className=' d-flex flex-column align-items-center'>
                                 <h4 style={{'overflowWrap': 'break-word'}}>Inotiv Bioanalytical Systems</h4>
                                 <h5>Research Associate</h5>
@@ -47,7 +47,7 @@ const WorkHistoryPage = () => {
                         </div>
                     </div>
                     <div className='slide'>
-                        <div className='justify-content-center d-flex align-items-center'>
+                        <div className='justify-content-center d-flex align-items-center flex-wrap'>
                             <div style={{'width':'40%'}} className=' d-flex flex-column align-items-center'>
                                 <h4 style={{'overflowWrap': 'break-word'}}>IEH Labs & Consulting</h4>
                                 <h5>Microbiologist</h5>
@@ -56,7 +56,7 @@ const WorkHistoryPage = () => {
                             </div>
                             <img src='../images/IEH_Logo.png' className='my-2' style={{'maxHeight':'150px', 'height': '40%' ,'width':'auto'}} />
                         </div>
-                        <div className='d-flex justify-content-between  mx-4 flex-column text-center'>
+                        <div className='d-flex justify-content-between  mx-4 flex-column text-center '>
                             <h5>Duties</h5>
                             <li>Processed food samples and amplified bacterial content through incubation processes with thorough workflow management.</li>
                             <li>Conducted PCR to determine the presence of pathogenic bacterial strains. </li>
@@ -65,7 +65,7 @@ const WorkHistoryPage = () => {
                         </div>
                     </div>
                     <div className='slide'>
-                        <div className='justify-content-center d-flex align-items-center'>
+                        <div className='justify-content-center d-flex align-items-center  flex-wrap'>
                             <div style={{'width':'40%', 'textAlign' : 'center'}} className=' d-flex flex-column align-items-center'>
                                 <h4 style={{'overflowWrap': 'break-word'}}>Niles Family Dentistry</h4>
                                 <h5>Intern</h5>
@@ -82,7 +82,7 @@ const WorkHistoryPage = () => {
                         </div>
                     </div>
                     <div className='slide'>
-                        <div className='justify-content-center d-flex align-items-center'>
+                        <div className='justify-content-center d-flex align-items-center  flex-wrap'>
                         <div style={{'width':'40%'}} className=' d-flex flex-column align-items-center'>
                                 <h4 style={{'overflowWrap': 'break-word', 'textAlign' : 'center'}}>Smokey Mountain Outdoors</h4>
                                 <h5>Raft Guide</h5>
