@@ -39,7 +39,13 @@ const WorkHistory = () => {
                         </div>
                         <h4>Inotiv Bioanalytical Systems</h4>
                         <h5>Research Associate | Histologist </h5>
-                        <button onClick={workNavigation}>View in Detail</button>
+                        <a className='rotating-board' href="#">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            View in Detail
+                        </a>
                         <div>
                             <img src="../images/flip_card_icon.png" alt="flip icon" className='mt-3' style={{'maxHeight':'25px', 'height': '30%' ,'maxWidth':'100%'}}/>
                         </div>
@@ -64,7 +70,13 @@ const WorkHistory = () => {
                         </div>
                         <h4>IEH Labs & Consulting</h4>
                         <h5>Microbiologist</h5>
-                        <button onClick={workNavigation}>View in Detail</button>
+                        <a className='rotating-board' href="#">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            View in Detail
+                        </a>
                         <div>
                             <img src="../images/flip_card_icon.png" alt="flip icon"  className='mt-3' style={{'maxHeight':'25px', 'height': '30%' ,'maxWidth':'100%'}}/>
                         </div>
@@ -89,7 +101,13 @@ const WorkHistory = () => {
                         </div>
                         <h4>Smokey Mountain Outdoors</h4>
                         <h5>Whitewater Raft Guide</h5>
-                        <button onClick={workNavigation}>View in Detail</button>
+                        <a className='rotating-board' href="#">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            View in Detail
+                        </a>
                         <div>
                             <img src="../images/flip_card_icon.png" alt="flip icon" className='mt-3' style={{'maxHeight':'25px', 'height': '30%' ,'maxWidth':'100%'}}/>
                         </div>
@@ -114,7 +132,13 @@ const WorkHistory = () => {
                         </div>
                         <h4>Niles Family Dentistry</h4>
                         <h5>Intern</h5>
-                        <button onClick={workNavigation}>View in Detail</button>
+                        <a className='rotating-board' href="#">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            View in Detail
+                        </a>
                         <div>
                             <img src="../images/flip_card_icon.png" alt="flip icon" className='mt-3' style={{'maxHeight':'25px', 'height': '30%' ,'maxWidth':'100%'}}/>
                         </div>
