@@ -17,7 +17,7 @@ const LandingHeader = () => {
                     </p>
                     <p> 
                         I got my start at Coding Dojo Bootcamp and fell in love with code! 
-                        Since then, I have worked to expand on my skill sets and knowledge through research and incorporating it into new projects. 
+                        Since then, I have worked to expand on my skill sets and knowledge through research while incorporating it into new projects. 
                     </p>
                     <p>
                         I'm always looking for new challenges and opportunities, and I'm excited to see what the future holds for me in the world of tech.
