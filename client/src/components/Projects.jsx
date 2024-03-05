@@ -26,7 +26,9 @@ const Projects = () => {
                         <li> Designed components to allow for simple reusability on any page </li>
                     </div>
                     <div className='mt-2'>
-                        <button><a href="https://github.com/MBaiamonte/MERN_Portfolio">Git</a></button>
+                        <button className='wiggle'>
+                            <span className='wiggle-span'><a href="https://github.com/MBaiamonte/MERN_Portfolio">Git</a></span>
+                        </button>
                     </div>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -43,8 +45,9 @@ const Projects = () => {
                         <li>Utilized custom CSS and Bootstrap for a clean and intuitive user interface, resulting in an enhanced user experience </li>
                     </div>
                     <div className='mt-2'>
-                        <button><a href="https://github.com/MBaiamonte/MERN_Barber_Shop">Git</a></button>
-                        {/* <button>Deployed Link</button> */}
+                        <button className='wiggle'>
+                            <span className='wiggle-span'><a href="https://github.com/MBaiamonte/MERN_Barber_Shop">Git</a></span>
+                        </button>
                     </div>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -61,9 +64,13 @@ const Projects = () => {
                         <li>Enabled PayPal and debit card payments for simplified user checkout</li>
                         <li>Utilized custom bootstrap style sheet for a clean and intuitive user interface, resulting in an enhanced user experience </li>
                     </div>
-                    <div className='mt-2'>
-                        <button className='mr-3'><a href="https://github.com/MBaiamonte/MERN_Ecom_Store_Demo">Git</a></button>
-                        <button><a href="https://mern-ecommerce-mock-store.onrender.com/">Deployed Link</a></button>
+                    <div className='mt-2 d-flex '>
+                        <button className='wiggle mr-3'>
+                            <span className='wiggle-span'><a href="https://github.com/MBaiamonte/MERN_Ecom_Store_Demo">Git</a></span>
+                        </button>
+                        <button className='wiggle wiggle-deploy-btn '>
+                            <span className='wiggle-span'><a href="https://mern-ecommerce-mock-store.onrender.com/">Deployed Link</a></span>
+                        </button>
                     </div>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -77,7 +84,9 @@ const Projects = () => {
                     <li>Utilized DOM manipulation, events, array methods, HTTP requests & more to conditionally render content based on user interactions</li>
                     <li>Developed custom CSS stylesheets to uniquely display content that is adaptive to user interactions</li>
                     <div className='mt-2'>
-                        <button><a href="https://github.com/MBaiamonte/50_css_js_mini_projects">Git</a></button>
+                        <button className='wiggle mr-3'>
+                            <span className='wiggle-span'><a href="https://github.com/MBaiamonte/50_css_js_mini_projects">Git</a></span>
+                        </button>
                     </div>
                 </VerticalTimelineElement>
             </VerticalTimeline>
