@@ -189,6 +189,7 @@ a.shake:hover{
   box-shadow: 0 0 5px 2px #D1D5DA;
   opacity: 1;
   border: none;
+  background-color: #F3F4F6;
 }
 .card.flip{
   --rotate-y:180deg;
@@ -209,7 +210,6 @@ a.shake:hover{
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 .card  p {
   margin-bottom: 5px;
@@ -222,17 +222,19 @@ a.shake:hover{
   padding: 10px 10px;
   color: #215D82;
   text-decoration: none;
+  text-transform: uppercase;
   transition: 0.5s;
   overflow: hidden;
+
 }
 .rotating-board:hover{
-  background: #fff;
+  background: #F3F4F6;
   color: #215D82;
   box-shadow: 0 0 5px #C8EAFA,
               0 0 5px #C8EAFA,
               0 0 2px #C8EAFA,
               0 0 20px #C8EAFA;
-              scale: 1.05;
+              scale: 1.02;
 }
 .rotating-board:nth-child(1){
   filter: hue-rotate(270deg);
@@ -249,7 +251,7 @@ a.shake:hover{
   left: 0;
   width: 100%;
   height: 2px;
-  background: linear-gradient(90deg,transparent,#C8EAFA);
+  background: linear-gradient(90deg,transparent,#a3d7f0);
   animation: animate1 1s linear infinite;
 }
 @keyframes animate1{
@@ -265,7 +267,7 @@ a.shake:hover{
   right: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(180deg,transparent,#C8EAFA);
+  background: linear-gradient(180deg,transparent,#2491c4);
   animation: animate2 1s linear infinite;
   animation-delay: 0.25s;
 }
@@ -282,7 +284,7 @@ a.shake:hover{
   right: 0;
   width: 100%;
   height: 2px;
-  background: linear-gradient(270deg,transparent,#C8EAFA);
+  background: linear-gradient(270deg,transparent,#0774a7);
   animation: animate3 1s linear infinite;
   animation-delay: 0.50s;
 }
@@ -299,7 +301,7 @@ a.shake:hover{
   left: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(360deg,transparent,#C8EAFA);
+  background: linear-gradient(360deg,transparent,#103647);
   animation: animate4 1s linear infinite;
   animation-delay: 0.75s;
 }
@@ -312,3 +314,63 @@ a.shake:hover{
   }
 }
 /* End rotating a styles */
+
+/* wiggle button */
+.wiggle{
+position: relative;
+  outline: none;;
+  text-decoration: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  height: 40px;
+  width: 65px;
+  opacity: 1;
+  background-color: #ffffff;
+  border: 1px solid rgba(22, 76, 167, 0.6);
+}
+.wiggle-deploy-btn{
+  width: 150px;
+}
+  .wiggle-span{
+    color: rgba(22, 76, 167, 1);
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+  }
+  .wiggle-span:hover{
+    animation: storm 0.7s ease-in-out both;
+          animation-delay: 0.06s;
+  }
+  .wiggle:hover{
+    animation: rotate 0.7s ease-in-out both;
+  }
+
+@keyframes rotate{
+  0%{
+  transform: rotate(0deg) translate3d(0, 0, 0)}
+25%{
+  transform: rotate(3deg) translate3d(0, 0, 0)}
+50%{
+  transform: rotate(-3deg) translate3d(0, 0, 0)}
+75%{
+  transform: rotate(1deg) translate3d(0, 0, 0)}
+100%{
+  transform: rotate(0deg) translate3d(0, 0, 0)}
+}
+
+@keyframes storm{
+  0%{
+  transform: translate3d( 0, 0, 0) translateZ(0)}
+25%{
+  transform: translate3d( 4px, 0, 0) translateZ(0)}
+50%{
+  transform: translate3d( -3px, 0, 0) translateZ(0)}
+75%{
+  transform: translate3d( 2px, 0, 0) translateZ(0)}
+100%{
+  transform: translate3d( 0, 0, 0) translateZ(0)}
+} 
