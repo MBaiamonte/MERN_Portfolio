@@ -56,10 +56,10 @@ const LandingHeader = () => {
             </div>
             <div className='d-flex flex-column align-items-center'>
                 <h6 className='mt-5' style={{'color' : 'black'}}>Scroll to Learn More about me!</h6>
-                <div class='scrolldown'>
-                    <div class="chevrons">
-                    <div class='chevrondown'></div>
-                    <div class='chevrondown'></div>
+                <div className='scrolldown'>
+                    <div className="chevrons">
+                    <div className='chevrondown'></div>
+                    <div className='chevrondown'></div>
                 </div>
             </div>
             </div>
