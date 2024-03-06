@@ -365,3 +365,46 @@ position: relative;
 100%{
   transform: translate3d( 0, 0, 0) translateZ(0)}
 } 
+
+/* expanding cards styles */
+
+#header{
+  display: flex;
+  justify-content: center; /*centers the header in the middle of the page*/
+  color: #495d4e;
+
+}
+.container{
+  display: flex;  /*centers everything */
+  align-items: center; /*if we didn't have flex-column then itd center it in horizontally but with flex column it centers vertically */
+  justify-content: center; /*centers it in middle of browser window instead of centering at the top */
+  width: 90vw; /*saying if the screen/viewPortWidth was divided up into 100 columns well take up 90 of the 100 */
+}
+.panel{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  height: 70vh;
+  border-radius: 50px; /*rounds corners*/
+  color: #001924;
+  cursor: pointer; /*cursor: sets the mouse cursor to show when the mouse pointer is over an element*/
+  flex:0.5;
+  margin: 10px;
+  position: relative;
+  transition: flex 0.7s ease-in ; /*slows the transition so its not instantaneous */
+}
+.panel h3{
+  font-size: 24px;
+  position: absolute;
+  left: 20px;
+  margin: 0;
+  opacity: 0; /*makes text invisible unless the panel is set to active*/
+}
+.panel.active{
+  flex:5; /*makes it so the div with active is much wider than non active panels/div's*/
+}
+.panel.active h3{
+  opacity: 1; /*makes h3 tags visible when active, overwriting the base opacity set in "panel" of 0 */
+  margin-top: 5%;
+  transition: opacity 0.3s ease-in 0.4s; 
+}
