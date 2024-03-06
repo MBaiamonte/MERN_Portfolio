@@ -16,6 +16,7 @@ const EducationQuickView = () => {
     return (
         <div className='d-flex flex-column'>
             <h3 className='align-self-center'>Educational Journey</h3>
+            <p className='align-self-center mb-0'>(Click to Flip Cards)</p>
             <div className='card-grid'>
             <div className={`card education ${(flip1 ? "flip" : "")}`}>
                 <div className='front' onClick={()=> setFlip1(!flip1)}>

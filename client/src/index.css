@@ -1,5 +1,8 @@
 
 /* Global styles */
+.overflow-x-hidden{
+  overflow-x: hidden;
+}
 .headers{
   display: flex;
   flex-direction: column;
