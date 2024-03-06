@@ -44,12 +44,7 @@ a.shake:hover{
 }
 
 /* slick carousel  styles */
-.slide{
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
-}
+
 .slick-arrow{
   color:black !important;
   background-color: black !important;
@@ -66,7 +61,7 @@ a.shake:hover{
   width: auto;
 }
 #projects-container{
-  background-image: linear-gradient(to bottom,#20364D,#20364D, #fff);
+  background-image: linear-gradient(to bottom,#20364D,#2b4764, #fff);
 }
 
 /* Unique styles below */
@@ -230,10 +225,7 @@ a.shake:hover{
 .rotating-board:hover{
   background: #F3F4F6;
   color: #215D82;
-  box-shadow: 0 0 5px #C8EAFA,
-              0 0 5px #C8EAFA,
-              0 0 2px #C8EAFA,
-              0 0 20px #C8EAFA;
+  box-shadow: 0 0 5px #001924;
               scale: 1.02;
 }
 .rotating-board:nth-child(1){
