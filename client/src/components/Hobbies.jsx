@@ -4,11 +4,11 @@ const Hobbies = () => {
     const [activePanel, setActivePanel] = useState(null);
 
     const images = [
-        { id: 1, title: "Rafting", url: "../images/SMO_Rafting_2.JPG", color: "#FF0000" },
-        { id: 2, title: "Fishing", url: "../images/Fishing_Boat.PNG", color: "#FF0000" },
-        { id: 3, title: "Snowmobiling", url: "../images/Snowmobiling.jpg", color: "rgb(0, 255, 0)" },
-        { id: 4, title: "Scuba Diving", url: "../images/Diving_2.jpg", color: "rgba(255, 165, 0, 0.9)" },
-        { id: 5, title: "Hunting", url: "../images/Hunting.jpg", color: "#000" },
+        { id: 1, title: "White Water Rafting", url: "../images/SMO_Rafting_2.JPG", color: "#F7EA00" },
+        { id: 2, title: "Fishing", url: "../images/Fishing_Boat.PNG", color: "#F7EA00" },
+        { id: 3, title: "Snowmobiling", url: "../images/Snowmobiling.jpg", color: "#F7EA00" },
+        { id: 4, title: "Scuba Diving", url: "../images/Diving_2.jpg", color: "#F7EA00" },
+        { id: 5, title: "Pheasant & Bird Hunting", url: "../images/Hunting.jpg", color: "#F7EA00" },
     ];
 
     const handleClick = (id) => {
