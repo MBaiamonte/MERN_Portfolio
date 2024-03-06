@@ -6,6 +6,7 @@ import WorkHistory from '../components/WorkHistory';
 import Separator from '../components/Separator'
 import Projects from '../components/Projects';
 import LandingHeader from '../components/LandingHeader';
+import Hobbies from '../components/Hobbies';
 
 const LandingPage = () => {
     return (
@@ -15,6 +16,7 @@ const LandingPage = () => {
             <Projects/>
             <WorkHistory/>
             <EducationQuickView/>
+            <Hobbies/>
             <Footer/>
         </>
     )
