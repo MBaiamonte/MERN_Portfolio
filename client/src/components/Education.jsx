@@ -1,7 +1,13 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Container, Row, Card} from 'react-bootstrap';
 
 const Education = () => {
+    useEffect(() => {
+        AOS.init({
+            duration: 2000
+        });
+        AOS.refresh();
+    }, []);
     return (
         <div className='d-flex flex-column align-items-center ' style={{'width':'75%', 'margin': 'auto'}}>
             <h3>My Academic Journey</h3>
@@ -33,7 +39,7 @@ const Education = () => {
                 </div>
             </div>
             <img src="../images/luxury-gold-line.png" alt="line break" style={{'maxHeight': '25px', 'width':'100%'}} />
-            <div>
+            <div data-aos="fade-up">
                 <div className='headers'>
                     <img className='mb-3' style={{'maxHeight':'150px', 'height': '80%' ,'width':'auto'}} src="../images/UAF_Banner.png" alt="UAF logo" />
                     <h4>University of Alaska Fairbanks</h4>
@@ -60,7 +66,7 @@ const Education = () => {
                 </div>
             </div>
             <img src="../images/luxury-gold-line.png" alt="line break" style={{'maxHeight': '25px', 'width':'100%'}} />
-            <div>
+            <div data-aos="fade-up">
                 <div className='headers'>
                     <img className='mb-3' style={{'maxHeight':'150px', 'height': '80%' ,'width':'auto'}} src="../images/CU_Boulder_Banner_2.png" />
                     <h4>University Colorado Boulder</h4>
