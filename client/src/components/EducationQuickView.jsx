@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import {useNavigate} from 'react-router-dom';
 
 
 const EducationQuickView = () => {
@@ -7,11 +6,7 @@ const EducationQuickView = () => {
         const [flip1, setFlip1] = useState(false);
         const [flip2, setFlip2] = useState(false);
         const [flip3, setFlip3] = useState(false);
-        const navigate = useNavigate();
         //Functions and handlers
-        const educationNav = () =>{
-            navigate('/Education')
-        }
 
     return (
         <div className='d-flex flex-column'>
@@ -36,8 +31,14 @@ const EducationQuickView = () => {
                     </div>
                     <h4>University of Alaska Fairbanks</h4>
                     <h6>Aug 2019 - May 2021 | GPA: 3.7</h6>
-                    <button onClick={educationNav}>View in Detail</button>
-                    <div  className='mt-4'>
+                    <a className='rotating-board' href="/Education">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            View in Detail
+                        </a>
+                    <div  className='mt-3'>
                         <img src="../images/flip_card_icon.png" alt="flip icon" style={{'maxHeight':'25px', 'height': '30%' ,'maxWidth':'100%'}}/>
                     </div>
                 </div>
@@ -61,8 +62,14 @@ const EducationQuickView = () => {
                     </div>
                     <h4>Coding Dojo Bootcamp</h4>
                     <h6>Dec 2022 - Oct 2023</h6>
-                    <button onClick={educationNav}>View in Detail</button>
-                    <div  className='mt-4'>
+                    <a className='rotating-board' href="/Education">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            View in Detail
+                        </a>
+                    <div  className='mt-1'>
                         <img src="../images/flip_card_icon.png" alt="flip icon" style={{'maxHeight':'25px', 'height': '30%' ,'maxWidth':'100%'}}/>
                     </div>
                 </div>
@@ -85,7 +92,13 @@ const EducationQuickView = () => {
                     </div>
                     <h4>University Colorado Boulder</h4>
                     <h6>August 2016 - May 2018</h6>
-                    <button onClick={educationNav}>View in Detail</button>
+                    <a className='rotating-board' href="/Education">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            View in Detail
+                        </a>
                     <div  className='mt-4'>
                         <img src="../images/flip_card_icon.png" alt="flip icon" style={{'maxHeight':'25px', 'height': '30%' ,'maxWidth':'100%'}}/>
                     </div>
