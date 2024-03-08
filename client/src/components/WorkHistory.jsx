@@ -19,13 +19,9 @@ const WorkHistory = () => {
                         <h5>Research Associate</h5>
                         <p>Feb 2022 - Dec 2022</p>
                         <p>Boulder, CO</p>
-                        <a className='rotating-board' href="/Work_History">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            View in Detail
-                        </a>
+                        <button className='wiggle wiggle-deploy-btn mt-3'>
+                            <span className='wiggle-span'><a href="/Work_History">View In Detail</a></span>
+                        </button>
                     </div>
                 </div>
                 <div className='card'>
@@ -37,13 +33,9 @@ const WorkHistory = () => {
                         <h5>Microbiologist</h5>
                         <p>May 2021 - Feb 2022</p>
                         <p>Greeley, CO</p>
-                        <a className='rotating-board' href="/Work_History">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            View in Detail
-                        </a>
+                        <button className='wiggle wiggle-deploy-btn mt-3'>
+                            <span className='wiggle-span'><a href="/Work_History">View In Detail</a></span>
+                        </button>
                     </div>
                 </div>
                 <div className='card'>
@@ -55,13 +47,9 @@ const WorkHistory = () => {
                         <h5>Whitewater Raft Guide</h5>
                         <p>Seasonal, May 2018 - Aug 2020</p>
                         <p>Hartford, TN</p>
-                        <a className='rotating-board' href="/Work_History">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            View in Detail
-                        </a>
+                        <button className='wiggle wiggle-deploy-btn mt-3'>
+                            <span className='wiggle-span'><a href="/Work_History">View In Detail</a></span>
+                        </button>
                     </div>
                 </div>
                 <div className='card'>
@@ -73,13 +61,9 @@ const WorkHistory = () => {
                         <h5>Intern</h5>
                         <p>Dec 2016 - Dec 2017</p>
                         <p>Niwot, CO</p>
-                        <a className='rotating-board' href="/Work_History">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            View in Detail
-                        </a>
+                        <button className='wiggle wiggle-deploy-btn mt-3'>
+                            <span className='wiggle-span'><a href="/Work_History">View In Detail</a></span>
+                        </button>
                     </div>
                     
                 </div>
