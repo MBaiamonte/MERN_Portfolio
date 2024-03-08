@@ -12,14 +12,14 @@ const ProjectsPage = () => {
         AOS.refresh();
     }, []);
     return (
-        <>
+        <div  className='overflow-x-hidden'>
             <Header/>
             <Separator/>
             <Projects/>
             <div  data-aos="flip-up">
                 <Footer/>
             </div>
-        </>
+        </div>
     )
 }
 

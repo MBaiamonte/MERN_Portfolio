@@ -26,7 +26,7 @@ const LandingPage = () => {
             <div data-aos="zoom-in">
                 <WorkHistory/>
             </div>
-            <div data-aos="zoom-out">
+            <div data-aos="zoom-in">
             <EducationQuickView/>
             </div>
             <div data-aos="fade-up">
