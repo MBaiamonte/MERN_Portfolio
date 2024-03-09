@@ -3,6 +3,9 @@
 .overflow-x-hidden{
   overflow-x: hidden;
 }
+.vertical-timeline-element-date{
+  color: #ffd166;
+}
 .headers{
   display: flex;
   flex-direction: column;
