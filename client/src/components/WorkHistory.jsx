@@ -1,10 +1,14 @@
 import React from 'react';
+import {useNavigate} from 'react-router-dom'
 import '../index.css';
 
 
 
 const WorkHistory = () => {
-
+    const navigate = useNavigate()
+    const workLinkHandler = () => {
+        navigate('/Work_History')
+    }
 
     return (
         <div className='d-flex flex-column justify-content-center '>
@@ -19,8 +23,8 @@ const WorkHistory = () => {
                         <h5 style={{'color':'#163958'}}>Research Associate</h5>
                         <p style={{color : '#e09f3e'}}>Feb 2022 - Dec 2022</p>
                         <p  style={{'color':'#1F577A'}}>Boulder, CO</p>
-                        <button className='wiggle wiggle-deploy-btn mt-3'>
-                            <span className='wiggle-span'><a style={{'color':'#40916c'}} href="/Work_History">View In Detail</a></span>
+                        <button className='wiggle wiggle-deploy-btn mt-3' onClick={workLinkHandler}>
+                            <span className='wiggle-span'><a style={{'color':'#40916c'}}>View In Detail</a></span>
                         </button>
                     </div>
                 </div>
@@ -33,8 +37,8 @@ const WorkHistory = () => {
                         <h5 style={{'color':'#163958'}}>Microbiologist</h5>
                         <p style={{color : '#e09f3e'}}>May 2021 - Feb 2022</p>
                         <p  style={{'color':'#1F577A'}}>Greeley, CO</p>
-                        <button className='wiggle wiggle-deploy-btn mt-3'>
-                            <span className='wiggle-span'><a style={{'color':'#40916c'}} href="/Work_History">View In Detail</a></span>
+                        <button className='wiggle wiggle-deploy-btn mt-3' onClick={workLinkHandler}>
+                            <span className='wiggle-span'><a style={{'color':'#40916c'}}>View In Detail</a></span>
                         </button>
                     </div>
                 </div>
@@ -47,8 +51,8 @@ const WorkHistory = () => {
                         <h5 style={{'color':'#163958'}}>Whitewater Raft Guide</h5>
                         <p style={{color : '#e09f3e'}}>Seasonal, May 2018 - Aug 2020</p>
                         <p style={{'color':'#1F577A'}}>Hartford, TN</p>
-                        <button className='wiggle wiggle-deploy-btn mt-3'>
-                            <span className='wiggle-span'><a style={{'color':'#40916c'}} href="/Work_History">View In Detail</a></span>
+                        <button className='wiggle wiggle-deploy-btn mt-3' onClick={workLinkHandler}>
+                            <span className='wiggle-span'><a style={{'color':'#40916c'}}>View In Detail</a></span>
                         </button>
                     </div>
                 </div>
@@ -61,8 +65,8 @@ const WorkHistory = () => {
                         <h5 style={{'color':'#163958'}}>Intern</h5>
                         <p style={{color : '#e09f3e'}}>Dec 2016 - Dec 2017</p>
                         <p style={{'color':'#1F577A'}}>Niwot, CO</p>
-                        <button className='wiggle wiggle-deploy-btn mt-3'>
-                            <span className='wiggle-span'><a style={{'color':'#40916c'}} href="/Work_History">View In Detail</a></span>
+                        <button className='wiggle wiggle-deploy-btn mt-3' onClick={workLinkHandler}>
+                            <span className='wiggle-span'><a style={{'color':'#40916c'}}>View In Detail</a></span>
                         </button>
                     </div>
                     
