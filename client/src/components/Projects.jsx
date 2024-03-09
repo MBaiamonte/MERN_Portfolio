@@ -4,6 +4,22 @@ import 'react-vertical-timeline-component/style.min.css';
 
 const Projects = () => {
     const reactIcon = '../images/React_Icon.png'
+    const portfolioHandler = () =>{
+        window.open('https://github.com/MBaiamonte/MERN_Portfolio')
+    }
+    const barberHandler = () =>{
+        window.open('https://github.com/MBaiamonte/MERN_Barber_Shop')
+    }
+    const storeGitHandler = () =>{
+        window.open('https://github.com/MBaiamonte/MERN_Ecom_Store_Demo')
+    }
+    const storeLinkHandler = () =>{
+        window.open('https://mern-ecommerce-mock-store.onrender.com/');
+        window.alert('Deployed link may take a few seconds to initially load');
+    }
+    const cssHandler = () =>{
+        window.open('https://github.com/MBaiamonte/50_css_js_mini_projects')
+    }
     return (
         <div id='projects-container'>
             <div className='d-flex align-items-center justify-content-center'>
@@ -26,8 +42,8 @@ const Projects = () => {
                         <li style={{'color':'#256E91'}}> Designed components to allow for simple reusability on any page </li>
                     </div>
                     <div className='mt-2'>
-                        <button className='wiggle'>
-                            <span className='wiggle-span'><a style={{'color':'#40916c'}} href="https://github.com/MBaiamonte/MERN_Portfolio">Git</a></span>
+                        <button className='wiggle' onClick={portfolioHandler}>
+                            <span className='wiggle-span'><a style={{'color':'#40916c'}}>Git</a></span>
                         </button>
                     </div>
                 </VerticalTimelineElement>
@@ -45,8 +61,8 @@ const Projects = () => {
                         <li style={{'color':'#256E91'}}>Utilized custom CSS and Bootstrap for a clean and intuitive user interface, resulting in an enhanced user experience </li>
                     </div>
                     <div className='mt-2'>
-                        <button className='wiggle'>
-                            <span className='wiggle-span'><a style={{'color':'#40916c'}} href="https://github.com/MBaiamonte/MERN_Barber_Shop">Git</a></span>
+                        <button className='wiggle' onClick={barberHandler}>
+                            <span className='wiggle-span'><a style={{'color':'#40916c'}}>Git</a></span>
                         </button>
                     </div>
                 </VerticalTimelineElement>
@@ -65,11 +81,11 @@ const Projects = () => {
                         <li style={{'color':'#256E91'}}>Utilized custom bootstrap style sheet for a clean and intuitive user interface, resulting in an enhanced user experience </li>
                     </div>
                     <div className='mt-2 d-flex '>
-                        <button className='wiggle mr-3'>
-                            <span className='wiggle-span'><a style={{'color':'#40916c'}} href="https://github.com/MBaiamonte/MERN_Ecom_Store_Demo">Git</a></span>
+                        <button className='wiggle mr-3' onClick={storeGitHandler}>
+                            <span className='wiggle-span'><a style={{'color':'#40916c'}}>Git</a></span>
                         </button>
-                        <button className='wiggle wiggle-deploy-btn '>
-                            <span className='wiggle-span'><a style={{'color':'#40916c'}} href="https://mern-ecommerce-mock-store.onrender.com/">Deployed Link</a></span>
+                        <button className='wiggle wiggle-deploy-btn' onClick={storeLinkHandler}>
+                            <span className='wiggle-span'><a style={{'color':'#40916c'}}>Deployed Link</a></span>
                         </button>
                     </div>
                 </VerticalTimelineElement>
@@ -84,8 +100,8 @@ const Projects = () => {
                     <li style={{'color':'#256E91'}}>Utilized DOM manipulation, events, array methods, HTTP requests & more to conditionally render content based on user interactions</li>
                     <li style={{'color':'#256E91'}}>Developed custom CSS stylesheets to uniquely display content that is adaptive to user interactions</li>
                     <div className='mt-2'>
-                        <button className='wiggle mr-3'>
-                            <span className='wiggle-span'><a  style={{'color':'#40916c'}} href="https://github.com/MBaiamonte/50_css_js_mini_projects">Git</a></span>
+                        <button className='wiggle mr-3' onClick={cssHandler}>
+                            <span className='wiggle-span'><a  style={{'color':'#40916c'}}>Git</a></span>
                         </button>
                     </div>
                 </VerticalTimelineElement>
