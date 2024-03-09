@@ -4,7 +4,7 @@
   overflow-x: hidden;
 }
 .vertical-timeline-element-date{
-  color: #ffd166;
+  color: #e09f3e;
 }
 .headers{
   display: flex;
@@ -229,9 +229,7 @@ a.shake:hover{
 }
 .rotating-board:hover{
   background: #F3F4F6;
-  color: #215D82;
-  box-shadow: 0 0 5px #001924;
-              scale: 1.02;
+              scale: 1.05;
 }
 .rotating-board:nth-child(1){
   filter: hue-rotate(270deg);

@@ -19,8 +19,8 @@ const Hobbies = () => {
         <div>
             <div>
                 <div id="header" className='d-flex flex-column align-items-center justify-content-center'>
-                    <h3>Hobbies</h3>
-                    <p>(Click Image to Expand)</p>
+                    <h3 style={{'color':'#163958'}}>Hobbies</h3>
+                    <p style={{'color':'#163958'}}>(Click Image to Expand)</p>
                 </div>
                 <div className="container">
                     {images.map((image) => (

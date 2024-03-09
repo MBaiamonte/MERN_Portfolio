@@ -19,7 +19,7 @@ const Projects = () => {
                     icon={<img src='../images/React_Icon.png' style={{'width': 'auto', 'height':'100%'}}/>}
                 >
                     <h3 className="vertical-timeline-element-title" style={{'color':'#163958'}}>Portfolio</h3>
-                    <h6 className="vertical-timeline-element-subtitle mb-2" style={{'color':'#163958'}}>React</h6>
+                    <h6 className="vertical-timeline-element-subtitle mb-2" style={{'color':'#1F577A'}}>React</h6>
                     <div>
                         <li style={{'color':'#256E91'}}> Developed customized UI & UX through CSS stylesheet and Bootstrap library to seamless display content for users </li>
                         <li style={{'color':'#256E91'}}> Incorporated react libraries such as React-Slick to enable interactive content display for users </li>
@@ -38,7 +38,7 @@ const Projects = () => {
                     icon={<img src='../images/React_Icon.png' style={{'width': 'auto', 'height':'100%'}}/>}
                 >
                     <h3 className="vertical-timeline-element-title" style={{'color':'#163958'}}>Barber Shop Booking App</h3>
-                    <h6 className="vertical-timeline-element-subtitle mb-2" style={{'color':'#163958'}}>React,Express, MongoDB Atlas, Node.js</h6>
+                    <h6 className="vertical-timeline-element-subtitle mb-2" style={{'color':'#1F577A'}}>React,Express, MongoDB Atlas, Node.js</h6>
                     <div>
                         <li style={{'color':'#256E91'}}>Developed custom error codes and validations for seamless debugging and consistent data entry storage</li>
                         <li style={{'color':'#256E91'}}>Implemented Google Maps API for user-friendly display of store location and directions. </li>
@@ -57,7 +57,7 @@ const Projects = () => {
                     icon={<img src='../images/React_Icon.png' style={{'width': 'auto', 'height':'100%'}}/>}
                     >
                     <h3 className="vertical-timeline-element-title" style={{'color':'#163958'}}>Ecommerce Mock Store Demo</h3>
-                    <h6 className="vertical-timeline-element-subtitle mb-2" style={{'color':'#163958'}}>React, Express, MongoDB Atlas, Node.js, Redux</h6>
+                    <h6 className="vertical-timeline-element-subtitle mb-2" style={{'color':'#1F577A'}}>React, Express, MongoDB Atlas, Node.js, Redux</h6>
                     <div>
                         <li style={{'color':'#256E91'}}>Developed admin-protected routes and functions to securely and easily manage users, products, and orders</li>
                         <li style={{'color':'#256E91'}}>Incorporated Redux for easy frontend state management and troubleshooting</li>
@@ -80,7 +80,7 @@ const Projects = () => {
                     icon={<img src='../images/css_html_js_icon.png' style={{'width': '100%', 'height':'auto'}} className='mt-2'/>}
                     >
                     <h3 className="vertical-timeline-element-title" style={{'color':'#163958'}}>50 CSS, JS and HTML Mini Projects</h3>
-                    <h6 className="vertical-timeline-element-subtitle mb-2" style={{'color':'#163958'}}>HTML5, JS, CSS</h6>
+                    <h6 className="vertical-timeline-element-subtitle mb-2" style={{'color':'#1F577A'}}>HTML5, JS, CSS</h6>
                     <li style={{'color':'#256E91'}}>Utilized DOM manipulation, events, array methods, HTTP requests & more to conditionally render content based on user interactions</li>
                     <li style={{'color':'#256E91'}}>Developed custom CSS stylesheets to uniquely display content that is adaptive to user interactions</li>
                     <div className='mt-2'>
