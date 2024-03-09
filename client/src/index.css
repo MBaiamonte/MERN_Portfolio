@@ -50,11 +50,8 @@ a.shake:hover{
 }
 
 /* slick carousel  styles */
-.slick-arrow{
-  color:black !important;
-  background-color: black !important;
-  height: 50px;
-  border-radius: 10px;
+.slick-arrow, .slick-next::before, .slick-prev:before{
+  color:#1F577A !important;
 }
 
 /* misc styles */
