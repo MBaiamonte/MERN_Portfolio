@@ -7,7 +7,7 @@ const Projects = () => {
     return (
         <div id='projects-container'>
             <div className='d-flex align-items-center justify-content-center'>
-                <h4 className='align-self-center '>My Projects</h4>
+                <h4 className='align-self-center' style={{'color':'#fff'}}>My Projects</h4>
             </div>
             <VerticalTimeline>
                 <VerticalTimelineElement
@@ -18,16 +18,16 @@ const Projects = () => {
                     iconStyle={{ background: '#fff' }}
                     icon={<img src='../images/React_Icon.png' style={{'width': 'auto', 'height':'100%'}}/>}
                 >
-                    <h3 className="vertical-timeline-element-title">Portfolio</h3>
-                    <h6 className="vertical-timeline-element-subtitle mb-2">React</h6>
+                    <h3 className="vertical-timeline-element-title" style={{'color':'#163958'}}>Portfolio</h3>
+                    <h6 className="vertical-timeline-element-subtitle mb-2" style={{'color':'#163958'}}>React</h6>
                     <div>
-                        <li> Developed customized UI & UX through CSS stylesheet and Bootstrap library to seamless display content for users </li>
-                        <li> Incorporated react libraries such as React-Slick to enable interactive content display for users </li>
-                        <li> Designed components to allow for simple reusability on any page </li>
+                        <li style={{'color':'#256E91'}}> Developed customized UI & UX through CSS stylesheet and Bootstrap library to seamless display content for users </li>
+                        <li style={{'color':'#256E91'}}> Incorporated react libraries such as React-Slick to enable interactive content display for users </li>
+                        <li style={{'color':'#256E91'}}> Designed components to allow for simple reusability on any page </li>
                     </div>
                     <div className='mt-2'>
                         <button className='wiggle'>
-                            <span className='wiggle-span'><a href="https://github.com/MBaiamonte/MERN_Portfolio">Git</a></span>
+                            <span className='wiggle-span'><a style={{'color':'#40916c'}} href="https://github.com/MBaiamonte/MERN_Portfolio">Git</a></span>
                         </button>
                     </div>
                 </VerticalTimelineElement>
@@ -37,16 +37,16 @@ const Projects = () => {
                     iconStyle={{background: '#fff' }}
                     icon={<img src='../images/React_Icon.png' style={{'width': 'auto', 'height':'100%'}}/>}
                 >
-                    <h3 className="vertical-timeline-element-title">Barber Shop Booking App</h3>
-                    <h6 className="vertical-timeline-element-subtitle mb-2">React,Express, MongoDB Atlas, Node.js</h6>
+                    <h3 className="vertical-timeline-element-title" style={{'color':'#163958'}}>Barber Shop Booking App</h3>
+                    <h6 className="vertical-timeline-element-subtitle mb-2" style={{'color':'#163958'}}>React,Express, MongoDB Atlas, Node.js</h6>
                     <div>
-                        <li>Developed custom error codes and validations for seamless debugging and consistent data entry storage</li>
-                        <li>Implemented Google Maps API for user-friendly display of store location and directions. </li>
-                        <li>Utilized custom CSS and Bootstrap for a clean and intuitive user interface, resulting in an enhanced user experience </li>
+                        <li style={{'color':'#256E91'}}>Developed custom error codes and validations for seamless debugging and consistent data entry storage</li>
+                        <li style={{'color':'#256E91'}}>Implemented Google Maps API for user-friendly display of store location and directions. </li>
+                        <li style={{'color':'#256E91'}}>Utilized custom CSS and Bootstrap for a clean and intuitive user interface, resulting in an enhanced user experience </li>
                     </div>
                     <div className='mt-2'>
                         <button className='wiggle'>
-                            <span className='wiggle-span'><a href="https://github.com/MBaiamonte/MERN_Barber_Shop">Git</a></span>
+                            <span className='wiggle-span'><a style={{'color':'#40916c'}} href="https://github.com/MBaiamonte/MERN_Barber_Shop">Git</a></span>
                         </button>
                     </div>
                 </VerticalTimelineElement>
@@ -56,20 +56,20 @@ const Projects = () => {
                     iconStyle={{background: '#fff' }}
                     icon={<img src='../images/React_Icon.png' style={{'width': 'auto', 'height':'100%'}}/>}
                     >
-                    <h3 className="vertical-timeline-element-title">Ecommerce Mock Store Demo</h3>
-                    <h6 className="vertical-timeline-element-subtitle mb-2">React, Express, MongoDB Atlas, Node.js, Redux</h6>
+                    <h3 className="vertical-timeline-element-title" style={{'color':'#163958'}}>Ecommerce Mock Store Demo</h3>
+                    <h6 className="vertical-timeline-element-subtitle mb-2" style={{'color':'#163958'}}>React, Express, MongoDB Atlas, Node.js, Redux</h6>
                     <div>
-                        <li>Developed admin-protected routes and functions to securely and easily manage users, products, and orders</li>
-                        <li>Incorporated Redux for easy frontend state management and troubleshooting</li>
-                        <li>Enabled PayPal and debit card payments for simplified user checkout</li>
-                        <li>Utilized custom bootstrap style sheet for a clean and intuitive user interface, resulting in an enhanced user experience </li>
+                        <li style={{'color':'#256E91'}}>Developed admin-protected routes and functions to securely and easily manage users, products, and orders</li>
+                        <li style={{'color':'#256E91'}}>Incorporated Redux for easy frontend state management and troubleshooting</li>
+                        <li style={{'color':'#256E91'}}>Enabled PayPal and debit card payments for simplified user checkout</li>
+                        <li style={{'color':'#256E91'}}>Utilized custom bootstrap style sheet for a clean and intuitive user interface, resulting in an enhanced user experience </li>
                     </div>
                     <div className='mt-2 d-flex '>
                         <button className='wiggle mr-3'>
-                            <span className='wiggle-span'><a href="https://github.com/MBaiamonte/MERN_Ecom_Store_Demo">Git</a></span>
+                            <span className='wiggle-span'><a style={{'color':'#40916c'}} href="https://github.com/MBaiamonte/MERN_Ecom_Store_Demo">Git</a></span>
                         </button>
                         <button className='wiggle wiggle-deploy-btn '>
-                            <span className='wiggle-span'><a href="https://mern-ecommerce-mock-store.onrender.com/">Deployed Link</a></span>
+                            <span className='wiggle-span'><a style={{'color':'#40916c'}} href="https://mern-ecommerce-mock-store.onrender.com/">Deployed Link</a></span>
                         </button>
                     </div>
                 </VerticalTimelineElement>
@@ -79,13 +79,13 @@ const Projects = () => {
                     iconStyle={{background: '#fff' }}
                     icon={<img src='../images/css_html_js_icon.png' style={{'width': '100%', 'height':'auto'}} className='mt-2'/>}
                     >
-                    <h3 className="vertical-timeline-element-title">50 CSS, JS and HTML Mini Projects</h3>
-                    <h6 className="vertical-timeline-element-subtitle mb-2">HTML5, JS, CSS</h6>
-                    <li>Utilized DOM manipulation, events, array methods, HTTP requests & more to conditionally render content based on user interactions</li>
-                    <li>Developed custom CSS stylesheets to uniquely display content that is adaptive to user interactions</li>
+                    <h3 className="vertical-timeline-element-title" style={{'color':'#163958'}}>50 CSS, JS and HTML Mini Projects</h3>
+                    <h6 className="vertical-timeline-element-subtitle mb-2" style={{'color':'#163958'}}>HTML5, JS, CSS</h6>
+                    <li style={{'color':'#256E91'}}>Utilized DOM manipulation, events, array methods, HTTP requests & more to conditionally render content based on user interactions</li>
+                    <li style={{'color':'#256E91'}}>Developed custom CSS stylesheets to uniquely display content that is adaptive to user interactions</li>
                     <div className='mt-2'>
                         <button className='wiggle mr-3'>
-                            <span className='wiggle-span'><a href="https://github.com/MBaiamonte/50_css_js_mini_projects">Git</a></span>
+                            <span className='wiggle-span'><a  style={{'color':'#40916c'}} href="https://github.com/MBaiamonte/50_css_js_mini_projects">Git</a></span>
                         </button>
                     </div>
                 </VerticalTimelineElement>
