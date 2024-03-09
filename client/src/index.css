@@ -22,6 +22,18 @@
   padding: 0 20px;
 }
 
+/* nav bar styles */
+
+nav{
+  background-color: transparent !important;
+}
+nav.active{
+background-color: #fff !important;
+}
+
+
+
+
 /* anchor tag styles */
 a.shake{
   transition: 0.4s;

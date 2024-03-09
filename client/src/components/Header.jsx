@@ -1,11 +1,21 @@
-import React from 'react';
+import React,{ useState } from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import {LinkContainer} from 'react-router-bootstrap';
 
 const Header = () => {
+    const [navBar, setNavBar] = useState(false)
+
+    const changeBackground = () =>{
+        if(window.scrollY >= 10){
+            setNavBar(true)
+        } else{
+            setNavBar(false)
+        }
+    }
+    window.addEventListener('scroll', changeBackground)
     return (
-                <Container className='mb-3'>
-                    <Navbar expand='md' fixed="top" className='mt-4 pt-0'>
+                // <Container className='mb-3'>
+                    <Navbar expand='md' fixed="top" className={navBar ? 'navbar active' : 'navbar'}>
                         <LinkContainer to="/" >
                             <Navbar.Brand>
                                 <h2>Matthew Baiamonte</h2>
@@ -29,7 +39,7 @@ const Header = () => {
                             </Nav>
                             </Navbar.Collapse>
                         </Navbar>
-                    </Container>
+                    // </Container>
     )
 }
 
