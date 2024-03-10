@@ -10,28 +10,28 @@ const Education = () => {
     }, []);
     return (
         <div className='d-flex flex-column align-items-center ' style={{'width':'75%', 'margin': 'auto'}}>
-            <h3 style={{'color':'#163958'}}>My Academic Journey</h3>
+            <h3 style={{'color':'#163958'}} className='text-wrap'>My Academic Journey</h3>
             <div>
-                <div className='headers'>
+                <div className='headers text-wrap'>
                     <img className='mb-3' style={{'maxHeight':'150px', 'height': '80%' ,'width':'auto'}} src="../images/Coding_Dojo_Bootcamp_Banner.png" alt="bootcamp logo" />
                     <h4 style={{'color':'#163958'}}>Coding Dojo Bootcamp | Part of Colorado Technical University </h4>
                     <h5 style={{'color':'#163958'}}>Certificate in Full-Stack Software Development for MERN, Java, and Python</h5>
                     <p style={{color : '#e09f3e'}}>Dec 2022 - Oct 2023</p>
                 </div>
-                <div className='body'>
+                <div className='body text-wrap'>
                     <h4 style={{'color':'#163958'}}>Description</h4>
-                    <p style={{'color':'#256E91'}}>
+                    <p style={{'color':'#256E91'}} className='text-wrap'>
                         Coding Dojo Started out by teaching Web Fundaments with HTML5, CSS and JavaScript and general practices. 
                         After getting these core concepts down, I moved on to the Python Full stack course. 
                         Here I learned overarching coding principles such as development life cycles, MVC, OOP as well as code with python syntax. 
                         Along with python I learned how to utilize Flask and non-relational databases such a MySQL. 
                         By the end of this stack I was able to build full CRUD (create,read,update,Delete) applications with validations, authentication and M2M relationships.
                     </p>
-                    <p style={{'color':'#256E91'}}>
+                    <p style={{'color':'#256E91'}} className='text-wrap'>
                         The next full language stack I completed was Java with Spring Boot. 
                         Here I once again utilized over arching coding methodologies/principles to build full stack Java applications.
                     </p>
-                    <p style={{'color':'#256E91'}}>
+                    <p style={{'color':'#256E91'}} className='text-wrap'>
                         The last full language stack I learned was MERN (MongoDB, Express, React, Node.js). While similar to my previous stack, it had its own unique traits such as being Single Page Application. 
                         This stack also taught me how to incorporate non-relation databases such as MongoDB. Once again by the end of the program I was able to build full stack MERN applications that could authenticate routes/user, 
                         validate data entry,conditionally render and more.
@@ -40,7 +40,7 @@ const Education = () => {
             </div>
             <img src="../images/luxury-gold-line.png" alt="line break" style={{'maxHeight': '25px', 'width':'100%'}} />
             <div data-aos="fade-up">
-                <div className='headers'>
+                <div className='headers text-wrap'>
                     <img className='mb-3' style={{'maxHeight':'150px', 'height': '80%' ,'width':'auto'}} src="../images/UAF_Banner.png" alt="UAF logo" />
                     <h4 style={{'color':'#163958'}}>University of Alaska Fairbanks</h4>
                     <h5 style={{'color':'#163958'}}>Bachelors in Biology</h5>

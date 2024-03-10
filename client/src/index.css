@@ -31,9 +31,12 @@
   text-align: center;
   padding: 0 20px;
 }
+.text-wrap{
+  text-align: center;
+  word-wrap: normal;
+}
 
 /* nav bar styles */
-
 nav{
   background-color: transparent !important;
 }
@@ -46,8 +49,6 @@ background-color: #fff !important;
 .nav-link.active{
   color: #2491c4 !important;
 }
-
-
 
 /* anchor tag styles */
 a.shake{
@@ -176,7 +177,6 @@ a.shake:hover{
     opacity: 0.5;
   }
 }
-/*  End header scroll down styles */
 
 /* card style animations */
 .card-grid{
@@ -200,7 +200,7 @@ a.shake:hover{
   transition: 800ms;
   cursor: pointer;
   transform: perspective(1000px) rotateY(var(--rotate-y, 0)) translateY(var(--translate-y, 0));
-  height: 300px;
+  height: 350px;
   width: 350px;
   margin: 10px;
 }
