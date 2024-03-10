@@ -18,7 +18,7 @@ const Header = () => {
                     <Navbar expand='md' fixed="top" className={navBar ? 'navbar active' : 'navbar'}>
                         <LinkContainer to="/" >
                             <Navbar.Brand>
-                                <h2>Matthew Baiamonte</h2>
+                                <h2 style={{color: '#163958'}}>Matthew Baiamonte</h2>
                             </Navbar.Brand>
                         </LinkContainer>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
