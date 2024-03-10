@@ -12,7 +12,7 @@ const LandingHeader = () => {
             <div className='text-center' style={{'width' : '40%'}}>
                     <p  style={{'color' : '#005f73'}}> Hi! I am a full stack web developer who loves all things tech. Im passionate about leveraging the latest in web development trends, 
                         and am committed to pushing the boundaries of online platforms to create intuitive and engaging user experiences. 
-                        I specialize in front-end development, but enjoy building complex backends to support it.  
+                        I specialize in front-end development, but also enjoy building complex backends to support it.  
                     </p>
                     <p style={{'color' : '#005f73'}}> 
                         I got my start at Coding Dojo Bootcamp and fell in love with code! 
@@ -44,10 +44,10 @@ const LandingHeader = () => {
                     <div className='d-flex flex-column'>
                         <h5 className='mr-3' style={{'color' : '#073b4c'}}>Tools</h5>
                         <p className='mb-0' style={{'color' : '#005f73'}}>
-                            GitHub | PostMan | Spring Tool Suite | Axios  
+                            Spring Tool Suite | PostMan | GitHub | Axios  
                         </p>
                         <p style={{'color' : '#005f73'}}>
-                            Vite & CRA | Render Cloud Hosting | JSON | MySQL Workbench | Others
+                        MySQL Workbench | Render Cloud Hosting | JSON | Vite & CRA | Others
                         </p>
                     </div>
                 </div>

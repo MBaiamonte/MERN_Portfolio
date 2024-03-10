@@ -40,10 +40,10 @@ const WorkHistoryPage = () => {
                         </div>
                         <div className='d-flex justify-content-between text-center flex-column mx-4 '>
                             <h5 style={{'color':'#163958'}}>Duties</h5>
-                            <li style={{'color':'#256E91'}} className='text-wrap'> Created and implemented new processes and SOPs within the Histology, Logistics, Information, and Immuno-Histochemistry departments. Resulted in optimized workflows and improved efficiency. </li>
+                            <li style={{'color':'#256E91'}} className='text-wrap'> Created and implemented new processes and SOPs within the Histology, Logistics, Information, and Immuno-Histochemistry departments which resulted in optimized workflows and improved efficiency. </li>
                             <li style={{'color':'#256E91'}} className='text-wrap'>Maintained and updated all Safety Data Sheet (SDS) documentation for chemicals and substances, demonstrating meticulous attention to detail and compliance with safety regulations. </li>
-                            <li style={{'color':'#256E91'}} className='text-wrap'>Effectively managed project workflows through different departments and aided other departments as needed. </li>
-                            <li style={{'color':'#256E91'}} className='text-wrap'>Maintained project workflow between departments and aided the lab manager as needed.</li>
+                            <li style={{'color':'#256E91'}} className='text-wrap'>Effectively managed project workflows through different departments and aided other departments. </li>
+                            <li style={{'color':'#256E91'}} className='text-wrap'>Maintained project workflow between departments and aided the lab manager.</li>
                         </div>
                     </div>
                     <div className='slide'>
@@ -93,8 +93,8 @@ const WorkHistoryPage = () => {
                         </div>
                         <div className='d-flex justify-content-between mx-4 text-center flex-column'>
                             <h5 style={{'color':'#163958'}}>Duties</h5>
-                            <li style={{'color':'#256E91'}} className='text-wrap'>Performed swift water rescue to quickly save guests and remove them from potentially dangerous situations</li>
-                            <li style={{'color':'#256E91'}} className='text-wrap'>Guided families of all ages and experience levels down class four rapids in a safe but fun manner </li>
+                            <li style={{'color':'#256E91'}} className='text-wrap'>Performed swift water rescue to quickly save guests and remove them from potentially dangerous situations.</li>
+                            <li style={{'color':'#256E91'}} className='text-wrap'>Guided families of all ages and experience levels down class four rapids in a safe but fun manner. </li>
                             <li style={{'color':'#256E91'}} className='text-wrap'>Administered first aid as needed for a variety of injuries as needed. </li>
                             <li style={{'color':'#256E91'}} className='text-wrap'>Set river safety for other guides to ensure the quick rescue of guests should an accident occur.  </li>
                         </div>

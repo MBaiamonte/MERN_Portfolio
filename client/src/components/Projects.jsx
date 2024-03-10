@@ -37,7 +37,7 @@ const Projects = () => {
                     <h3 className="vertical-timeline-element-title" style={{'color':'#163958'}}>Portfolio</h3>
                     <h6 className="vertical-timeline-element-subtitle mb-2" style={{'color':'#1F577A'}}>React</h6>
                     <div>
-                        <li style={{'color':'#256E91'}}> Developed customized UI & UX through CSS stylesheet and Bootstrap library to seamless display content for users </li>
+                        <li style={{'color':'#256E91'}}> Developed customized UI & UX through CSS stylesheet and Bootstrap library to seamlessly display content for users </li>
                         <li style={{'color':'#256E91'}}> Incorporated react libraries such as React-Slick to enable interactive content display for users </li>
                         <li style={{'color':'#256E91'}}> Designed components to allow for simple reusability on any page </li>
                     </div>
@@ -54,10 +54,10 @@ const Projects = () => {
                     icon={<img src='../images/React_Icon.png' style={{'width': 'auto', 'height':'100%'}}/>}
                 >
                     <h3 className="vertical-timeline-element-title" style={{'color':'#163958'}}>Barber Shop Booking App</h3>
-                    <h6 className="vertical-timeline-element-subtitle mb-2" style={{'color':'#1F577A'}}>React,Express, MongoDB Atlas, Node.js</h6>
+                    <h6 className="vertical-timeline-element-subtitle mb-2" style={{'color':'#1F577A'}}>React, Express, MongoDB Atlas, Node.js</h6>
                     <div>
                         <li style={{'color':'#256E91'}}>Developed custom error codes and validations for seamless debugging and consistent data entry storage</li>
-                        <li style={{'color':'#256E91'}}>Implemented Google Maps API for user-friendly display of store location and directions. </li>
+                        <li style={{'color':'#256E91'}}>Implemented Google Maps API for user-friendly display of store location and directions</li>
                         <li style={{'color':'#256E91'}}>Utilized custom CSS and Bootstrap for a clean and intuitive user interface, resulting in an enhanced user experience </li>
                     </div>
                     <div className='mt-2'>

@@ -26,19 +26,20 @@ const AboutMePage = () => {
                     My initial academic journey led to earning a degree in Biology from the University of Alaska Fairbanks, where I developed a keen 
                     analytical and problem-solving mindset but also instilled a methodical approach to challenges. 
                     This scientific background, coupled with a natural curiosity for technology, propelled me into the world of coding, 
-                    where I further honed his skills through an intensive program at Coding Dojo.
-                    
+                    where I further honed my skills through an intensive program at Coding Dojo.
                     </p>
                     <p style={{'color':'#256E91'}}>
-                    Coding Dojo, known for its rigorous, comprehensive curriculum, was the crucible that transformed my latent interest in technology into a burgeoning career in software development. 
-                    Here, I mastered not only the technical skills required for full-stack development but also the collaborative and adaptive mindset essential for success in this rapidly evolving field.
+                    At Coding Dojo, known for its rigorous, comprehensive curriculum, I quickly absorbed the principles of software development, 
+                    embracing both the technical challenges and the collaborative dynamics essential to thriving in the fast-paced tech industry.
+                    This transformative experience equipped me with the diverse skill set required to 
+                    navigate the complexities of both front-end and back-end development with equal proficiency.
                     </p>
                     <p style={{'color':'#256E91'}}>
-                    Outside the coding world, I have the spirit of adventure and love for nature. As an enthusiast of the great outdoors, I frequently engages in rafting, fly fishing, hunting, and other outdoor activities. 
+                    Outside the coding world, I enjoy the spirit of adventure and love for nature. As an enthusiast of the great outdoors, I frequently engage in rafting, fly fishing, hunting, and other outdoor activities. 
                     These experiences not only offer me a refreshing break from technology but also inspire creativity and resilience in my professional work.
                     </p>
                     <p style={{'color':'#256E91'}}>
-                    In my professional projects, I leverages my diverse background, seamlessly integrating my scientific analytical abilities with my technical skills to develop intuitive, efficient web applications. 
+                    In my personal projects, I leverage my diverse background, seamlessly integrating my scientific analytical abilities with my technical skills to develop intuitive, efficient web applications. 
                     My commitment to excellence, coupled with a lifelong love of learning, drives me to continuously evolve as a developer.
                     My unique perspective and diverse skill set make me a valuable contributor to any tech team, capable of crafting innovative solutions that meet complex user needs.
                     </p>
