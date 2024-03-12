@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import { useNavigate } from 'react-router-dom';
 
 
 const EducationQuickView = () => {
@@ -6,7 +7,11 @@ const EducationQuickView = () => {
         const [flip1, setFlip1] = useState(false);
         const [flip2, setFlip2] = useState(false);
         const [flip3, setFlip3] = useState(false);
+        const navigate = useNavigate();
         //Functions and handlers
+        const eduHandler = () =>{
+            navigate('/Education')
+        }
 
     return (
         <div className='d-flex flex-column'>
@@ -31,7 +36,7 @@ const EducationQuickView = () => {
                     </div>
                     <h4 style={{'color':'#163958'}} className='text-wrap'>University of Alaska Fairbanks</h4>
                     <h6  style={{color : '#e09f3e'}} className='text-wrap'>Aug 2019 - May 2021 | GPA: 3.7</h6>
-                    <a style={{'color':'#40916c'}} className='rotating-board' href="/Education">
+                    <a style={{'color':'#40916c'}} className='rotating-board' onClick={eduHandler}>
                             <span></span>
                             <span></span>
                             <span></span>
@@ -62,7 +67,7 @@ const EducationQuickView = () => {
                     </div>
                     <h4 style={{'color':'#163958'}} className='text-wrap'>Coding Dojo Bootcamp</h4>
                     <h6 style={{color : '#e09f3e'}} className='text-wrap'>Dec 2022 - Oct 2023</h6>
-                    <a style={{'color':'#40916c'}} className='rotating-board' href="/Education">
+                    <a style={{'color':'#40916c'}} className='rotating-board' onClick={eduHandler}>
                             <span></span>
                             <span></span>
                             <span></span>
@@ -92,7 +97,7 @@ const EducationQuickView = () => {
                     </div>
                     <h4 style={{'color':'#163958'}} className='text-wrap'>University Colorado Boulder</h4>
                     <h6 style={{color : '#e09f3e'}} className='text-wrap'>Aug 2016 - May 2018</h6>
-                    <a style={{'color':'#40916c'}} className='rotating-board' href="/Education">
+                    <a style={{'color':'#40916c'}} className='rotating-board' onClick={eduHandler}>
                             <span></span>
                             <span></span>
                             <span></span>
