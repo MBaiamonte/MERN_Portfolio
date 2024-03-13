@@ -3,7 +3,6 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 
 const Projects = () => {
-    const reactIcon = '../images/React_Icon.png'
     const portfolioHandler = () =>{
         window.open('https://github.com/MBaiamonte/MERN_Portfolio')
     }
